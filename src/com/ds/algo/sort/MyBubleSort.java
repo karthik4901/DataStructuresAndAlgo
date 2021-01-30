@@ -1,5 +1,7 @@
 package com.ds.algo.sort;
 
+import java.util.Arrays;
+
 public class MyBubleSort {
 	
 	
@@ -22,7 +24,9 @@ public class MyBubleSort {
 			 lastUnsorted--;
 		 }
 		
- 		 System.out.println("sorted Array  "+array.toString());
+		
+ 		  System.out.println("sorted Array  "+Arrays.toString(array));
+		 
 		
 	}
 	
