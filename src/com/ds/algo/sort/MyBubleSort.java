@@ -15,7 +15,7 @@ public class MyBubleSort {
 			 isSorted = true;
 			 for(int i= 0; i<lastUnsorted;i++) {
 				 
-				 if(array[i]>array[i+1]) {
+				 if(array[i]<array[i+1]) {
 					 swap(array,i,i+1);
 					 isSorted = false;
 				 }
@@ -24,13 +24,9 @@ public class MyBubleSort {
 			 lastUnsorted--;
 		 }
 		
-		
- 		  System.out.println("sorted Array  "+Arrays.toString(array));
-		 
+ 		  System.out.println("sorted Array  "+Arrays.toString(array)); 
 		
 	}
-	
-
 	private static void swap(int[] array, int i, int j) {
 		// TODO Auto-generated method stub
 		int temp = array[i];
